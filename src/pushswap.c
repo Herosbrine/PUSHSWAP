@@ -27,7 +27,7 @@ void pushswap(int taille_la, char **argv)
         if (l_a[i] < l_a[i+1]) {
             i++;
             if ((i + 1) == taille_la) {
-                printf(" ");
+                my_putchar(' ');
                 exit(0);
             }
         }

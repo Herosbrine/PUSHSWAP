@@ -20,5 +20,5 @@ void rb(int *l_b, int taille_lb)
         i++;
     }
     l_b[taille_lb - 1] = end;
-    write(1, "rb ", 3);
+    write(1, " rb", 3);
 }

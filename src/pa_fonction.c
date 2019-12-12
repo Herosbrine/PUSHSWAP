@@ -28,5 +28,5 @@ void pa(int *l_b, int *l_a, int *taille_la, int *taille_lb)
         l_b[j] = l_b[j + 1];
         j++;
     }
-    write(1, "pa ", 3);
+    write(1, " pa", 3);
 }

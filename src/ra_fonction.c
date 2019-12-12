@@ -20,5 +20,6 @@ void ra(int *l_a, int taille_la)
         i++;
     }
     l_a[taille_la - 1] = end;
-    write(1, "ra ", 3);
+
+    write(1, " ra", 3);
 }
