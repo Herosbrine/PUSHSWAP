@@ -15,7 +15,7 @@ void ra(int *l_a, int taille_la)
     int end = l_a[0];
     int i = 0;
 
-    while(i < taille_la - 1){
+    while(i < taille_la - 1) {
         l_a[i] = l_a[i + 1];
         i++;
     }

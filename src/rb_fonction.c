@@ -15,7 +15,7 @@ void rb(int *l_b, int taille_lb)
     int end = l_b[0];
     int i = 0;
 
-    while(i < taille_lb - 1){
+    while(i < taille_lb - 1) {
         l_b[i] = l_b[i + 1];
         i++;
     }
