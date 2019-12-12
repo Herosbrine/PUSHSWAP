@@ -42,25 +42,3 @@ void pushswap(int taille_la, char **argv)
             rb(l_b, taille_lb);
     }
 }
-
-/*
-    i = 0;
-    while (i != sauvegarde + 1) {
-        if (l_a[i] < l_a[i+1])  {
-            i++;
-            if(l_a[i+1] == sauvegarde) {
-                printf(" ");
-                exit (0);
-            }
-        }
-        i++;
-    }
-*/
-/*
-    printf("\nl_a : ");
-    for(int x = 0; x < taille_la; x++)
-        printf("%d ", l_a[x]);
-    printf("\nl_b : ");
-    for(int y = 0; y < taille_lb; y++)
-        printf("%d ", l_b[y]);
-*/
