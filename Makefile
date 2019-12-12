@@ -13,11 +13,16 @@ CFLAGS = -W -Wall -Wextra
 
 NAME = push_swap
 
-SRC = 	src/bubble_sort_array.c \
-		src/bubble_sort.c \
+SRC =	src/pushswap.c \
 		src/my_getnbr.c \
-		src/main.c \
 		src/my_putchar.c \
+		src/pa_fonction.c \
+		src/pb_fonction.c \
+		src/main.c \
+		src/ra_fonction.c \
+		src/rb_fonction.c \
+		src/tall_la_number.c \
+		src/tall_lb_number.c \
 
 OBJ	=	$(SRC:.c=.o)
 
