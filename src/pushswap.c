@@ -29,7 +29,6 @@ void pushswap(int taille_la, char **argv)
         pb(l_b, l_a, &taille_lb, &taille_la);
         i++;
     }
-    i = 1;
     while (1) {
         bigger_lb = tall_lb_number(l_b, &taille_lb);
         if (l_b[0] == bigger_lb){
