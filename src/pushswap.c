@@ -22,6 +22,18 @@ void pushswap(int taille_la, char **argv)
         i++;
         a++;
     }
+    i = 1;
+    while (i < taille_la) {
+        if (l_a[i] < l_a[i+1]) {
+            i++;
+            if ((i + 1) == taille_la) {
+                printf(" ");
+                exit(0);
+            }
+        }
+        else
+            break;
+    }
     sauvegarde = taille_la;
     bigger_lb = tall_lb_number(l_b, &taille_lb);
     i = 1;
