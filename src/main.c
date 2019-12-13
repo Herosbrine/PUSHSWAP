@@ -19,4 +19,5 @@ int main(int ac, char **argv)
         exit (0);
     }
     pushswap((ac - 1), argv);
+    return (0);
 }

@@ -28,5 +28,5 @@ void pb(int *l_b, int *l_a, int *taille_lb, int *taille_la)
         l_a[j] = l_a[j + 1];
         j++;
     }
-    write(1, "pb", 3);
+    write(1, "pb", 2);
 }
