@@ -22,7 +22,7 @@ void pushswap(int taille_la, char **argv)
         i++;
         a++;
     }
-    i = 1;
+    i = 0;
     while (i < taille_la) {
         if (l_a[i] < l_a[i+1]) {
             i++;
