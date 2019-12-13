@@ -39,6 +39,8 @@ void pushswap(int taille_la, char **argv)
     i = 1;
     while (i != sauvegarde + 1) {
         pb(l_b, l_a, &taille_lb, &taille_la);
+        if (sauvegarde != taille_la && taille_la != 0)
+            write(1, " ", 1);
         i++;
     }
     while (1) {
