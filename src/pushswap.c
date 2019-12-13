@@ -28,7 +28,7 @@ void pushswap(int taille_la, char **argv)
             i++;
             if ((i + 1) == taille_la) {
                 my_putchar(' ');
-                exit(0);
+                exit (0);
             }
         }
         else

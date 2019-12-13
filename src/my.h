@@ -5,7 +5,7 @@
 ** my.h
 */
 
-int	my_getnbr(char *str);
+int my_getnbr(char *str);
 void my_putchar(char c);
 int tall_la_number(int *l_a, int *taille_la);
 int tall_lb_number(int *l_b, int *taille_lb);

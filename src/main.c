@@ -16,7 +16,7 @@ int main(int ac, char **argv)
         return (84);
     if (ac == 2) {
         my_putchar(' ');
-        exit(0);
+        exit (0);
     }
     pushswap((ac - 1), argv);
 }
