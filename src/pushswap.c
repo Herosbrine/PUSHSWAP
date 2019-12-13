@@ -54,4 +54,9 @@ void pushswap(int taille_la, char **argv)
         else
             rb(l_b, taille_lb);
     }
+    write(1, "\n", 1);
+    write(1, "l_a :", 5);
+    for (int pb = 0; pb < taille_la; pb++)
+        printf("%d ", l_a[pb]);
+    printf("\n");
 }

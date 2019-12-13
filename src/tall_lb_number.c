@@ -13,7 +13,7 @@
 int tall_lb_number(int *l_b, int *taille_lb)
 {
     int i = 0;
-    int bigger = 0;
+    int bigger = l_b[i];
 
     while (i < *taille_lb) {
         if (l_b[i] > bigger)

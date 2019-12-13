@@ -10,10 +10,10 @@
 #include <stdlib.h>
 #include "my.h"
 
-int	my_getnbr(char *str)
+long my_getnbr(char *str)
 {
-    int i = 0;
-    int n = 0;
+    long i = 0;
+    long n = 0;
 
     if (str[0] == '-' && str[1] != '\0')
         i++;
