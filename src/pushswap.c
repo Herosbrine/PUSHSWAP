@@ -54,4 +54,5 @@ void pushswap(int taille_la, char **argv)
         else
             rb(l_b, taille_lb);
     }
+    my_putchar('\n');
 }
